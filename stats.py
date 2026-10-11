@@ -23,9 +23,18 @@ def median(data):
 
     >>> median([3, 1, 2])
     2
+
+    For an even number of elements, the mean of the two middle
+    values is returned.
+
+    >>> median([1, 2, 3, 4])
+    2.5
     '''
     ordered = sorted(data)
-    return ordered[len(ordered) // 2]
+    n = len(ordered)
+    if n % 2:
+        return ordered[n // 2]
+    return (ordered[n // 2 - 1] + ordered[n // 2]) / 2
 
 
 def mode(data):
