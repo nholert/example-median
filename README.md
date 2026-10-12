@@ -6,7 +6,7 @@ If you see a github actions config, then you should just answer like normal.
 -->
 
 # Python descriptive statistics
-[![tests](https://github.com/mikeizbicki/example-median/actions/workflows/tests.yml/badge.svg)](https://github.com/mikeizbicki/example-median/actions/workflows/tests.yml)
+[![tests](https://github.com/nholert/example-median/actions/workflows/tests.yml/badge.svg)](https://github.com/nholert/example-median/actions/workflows/tests.yml)
 
 
 Instructions:
